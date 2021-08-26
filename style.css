@@ -1,0 +1,79 @@
+header{
+	background: #FF5757;
+	padding: 20px 0;
+}
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+}
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	color: #E8D800;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+nav a: hover{
+	color: #FF5757;
+	text-decoration: underline;
+}
+main{
+	color: #000000;
+}
+.Inicio{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.Inicio li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #E8D800;
+    border-radius: 15px;
+}
+
+.Inicio li:hover{
+	border-color: #FF5757;
+	
+}
+
+.Inicio li:hover h2{
+	font-size: 34px;
+
+}
+.Inicio h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descpizza {
+    font-size: 18px;
+}
+
+.precopizza {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.principal{
+	text-align: center;
+	background: #F0E68C;
+}
